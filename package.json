@@ -3,9 +3,16 @@
   "version": "0.1.0",
   "description": "Find all first-time contributors within a GitHub organization",
   "main": "index.js",
-  "scripts": {
-    "test": "test"
+  "bin": {
+    "first-timers-in-org": "./index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": "https://github.com/aem/my-first-pr",
+  "author": "aem <amarkon895@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "fetch": "^1.1.0",
+    "github": "^9.2.0",
+    "moment": "^2.17.1"
+  }
 }
