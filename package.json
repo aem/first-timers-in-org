@@ -1,0 +1,11 @@
+{
+  "name": "my-first-pr",
+  "version": "0.1.0",
+  "description": "Find all first-time contributors within a GitHub organization",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
